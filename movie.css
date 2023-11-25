@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.main-box{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+img{
+    width: 100%;
+}
+.main-box>div{
+    width: 32%;
+    height: 680px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    text-align: center;
+}
+h1, p, button{
+    margin-top: 15px;
+}
+p, button{
+    font-size: 17px;
+}
+button{
+    background-color: #81d4fa;
+    border: none;
+    padding: 5px;
+}
